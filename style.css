@@ -227,44 +227,50 @@ outline:none;
 .contact-form textarea{
 height:120px;
 }
-
 footer{
 background:#020617;
 padding:60px 0;
 }
 
+.footer-container{
+max-width:1150px;
+margin:auto;
+}
+
 .footer-grid{
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
-gap:30px;
+gap:40px;
+align-items:start;
 }
 
-footer h4{
+.footer-col h4{
 margin-bottom:15px;
 color:#60a5fa;
 }
 
-footer ul{
+.footer-col ul{
 list-style:none;
+padding:0;
 }
 
-footer li{
+.footer-col li{
 margin-bottom:10px;
 color:#94a3b8;
 cursor:pointer;
 transition:0.3s;
 }
 
-footer li:hover{
+.footer-col li:hover{
 color:#60a5fa;
 }
 
-footer p{
+.copyright{
 text-align:center;
 margin-top:40px;
 color:#64748b;
+font-size:14px;
 }
-
 @media (max-width:768px){
 
 .hero h1{
